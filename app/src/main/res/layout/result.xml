@@ -73,6 +73,7 @@
             android:layout_width="154dp"
             android:layout_height="231dp"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
             android:contentDescription="Avatar del perfil"
             android:scaleType="centerCrop"
