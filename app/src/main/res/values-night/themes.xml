@@ -1,16 +1,28 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.Perfil_usuari" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">#F475EC</item>
-        <item name="colorPrimaryVariant">#298DE9</item>
-        <item name="colorOnPrimary">#000000</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">#F27A99</item>
-        <item name="colorSecondaryVariant">#F8487A</item>
-        <item name="colorOnSecondary">#000000</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+<resources>
+
+    <style name="Theme.Perfil_usuari"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#D0BCFF</item>
+        <item name="colorPrimaryVariant">#4F378B</item>
+        <item name="colorOnPrimary">#381E72</item>
+
+        <item name="colorSecondary">#CCC2DC</item>
+        <item name="colorSecondaryVariant">#4A4458</item>
+        <item name="colorOnSecondary">#332D41</item>
+
+        <item name="android:colorBackground">#141218</item>
+        <item name="colorSurface">#211F26</item>
+        <item name="colorOnSurface">#E6E0E9</item>
+
+        <item name="android:statusBarColor">#141218</item>
+        <item name="android:navigationBarColor">#141218</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <item name="colorError">#F2B8B5</item>
+        <item name="colorOnError">#601410</item>
+
     </style>
+
 </resources>
